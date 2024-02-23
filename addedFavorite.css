@@ -1,0 +1,91 @@
+body {
+    margin-top: 0;
+    margin-left: 0;
+    background-color: rgb(1, 1, 28);
+}
+
+h1 {
+    position: fixed;
+    font-size: 45px;
+    color: blue;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+#bor {
+    position: fixed;
+    margin-top: 50px;
+    border-top: 1px solid rgb(255, 5, 5);
+}
+
+#main {
+    display: flex;
+    overflow-y: auto;
+    margin-top: 120px;
+    width: 100%;
+    max-height: calc(100vh - 120px);
+    position: fixed;
+    flex-direction: column; 
+    border: 2px solid yellow;
+}
+
+#display-hero {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    width: 85%;
+    background-color: rgb(2, 2, 35);
+    margin: 0 auto;
+    /* border: 1px solid white; */
+    align-items: center;
+}
+#favorites-list{
+    width: 95%;
+    /* margin:5px; */
+    /* border: 1px solid white; */
+}
+#favorites-list .outer{
+    width: 90%;
+    height: 380px;
+    /* border: 1px solid rgb(249, 232, 232); */
+    margin: 10px;
+    /* background-color: black; */
+}
+.image {
+     float: left; 
+     /* border: 1px solid rgb(245, 11, 11); */
+     width:25%;
+     height:380px;
+     border-radius: 20px;
+    
+}
+.info {
+   float: left; 
+   /* border: 1px solid rgb(28, 163, 11); */
+   height: 100%;
+   width:70%;
+   margin-left: 15px;
+   background-color: rgb(64, 7, 48);
+   border-radius: 20px;
+}
+.info ul{
+  color: white;
+  font-size: 25px;
+}
+.info li{
+    margin :10px;
+}
+li img {
+    width: 100%;
+    height: 379px;
+}
+.remove{
+    /* position: relative; */
+    color: white;
+    background-color: red;
+    margin-top: 5rem;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
